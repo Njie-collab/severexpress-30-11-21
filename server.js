@@ -3,7 +3,7 @@ const express =require("express")
 const server=express()
 const port=process.env.port
 server.listen(port,()=>{
-    console.log(`You are Listening To Port g${port}`)
+    console.log(`You are Listening To Port ${port}`)
 })
 const item =[
     {id:1,nmae:"Jonh"},
